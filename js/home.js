@@ -19,7 +19,7 @@ let homepageVue = new Vue({ //el property of the Vue instance.
             {
                 id: "trendingNow",
                 title: "This is 40",
-                genre: "Romantic Comedies, Comedies, Romantic Movies",
+                genre: "Romantic Comedies, Comedies, Romantic Movies", 
                 comingSoon: false,
                 availDate: 2015,
                 description: "After a big birthday, married couple Pete and Debbie wrestle with realities of parenthood, romance and getting older",
