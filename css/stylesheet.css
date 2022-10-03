@@ -90,7 +90,7 @@ h4{
     font-size: larger;
 }
 
-.email-btn{
+.email-button{
     font-display: var(--white);
     background-color: var(--red);
     font-size: 1.5rem;
@@ -105,7 +105,7 @@ h4{
     overflow: visible;
 }
 
-.card-one-image-container{
+.card-one-image-wrpper{
     background-image: url("/images/background.png");
 }
 
