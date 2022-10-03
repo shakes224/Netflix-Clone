@@ -21,22 +21,22 @@ body{
     justify-content: center;
 }
 
-.container .navbar{
+.wrapper .navbar{
     display: flex;
 }
 
-.container .navbar .left {
+.wrapper .navbar .left {
     height: 100%;
     display: flex;
     float: left;
 }
 
-.container .navbar .left img{
+.wrapper .navbar .left img{
     width: 180px;
     margin: 20px;
 }
 
-.container .navbar .right{
+.wrapper .navbar .right{
     display: flex;
     margin: 50px;
     float: right;
@@ -105,11 +105,11 @@ h4{
     overflow: visible;
 }
 
-.card-one-image-wrpper{
-    background-image: url("/images/background.png");
+.first-card-image-wrapper{
+    background-image: url("/images/netflix-background.jpg");
 }
 
-.our-story-card-one{
+.our-first-story-card{
     display: flex;
     justify-content: center;
     padding-top: 4rem;
@@ -120,7 +120,7 @@ h4{
     text-align: center;
 }
 
-.our-story-card-two{
+.our-second-story-card{
     display: flex;
     padding: 3rem;
     font-family: sans-serif;
@@ -132,7 +132,7 @@ h4{
     padding-top: 8rem;
 }
 
-.our-story-card-three{
+.our-third-story-card{
     display: flex;
     padding: 3rem;
     font-family: sans-serif;
@@ -143,7 +143,7 @@ h4{
     height: 697px;
 }
 
-.our-story-card-four{
+.our-fourth-story-card{
     display: flex;
     padding: 3rem;
     font-family: sans-serif;
@@ -155,7 +155,7 @@ h4{
     align-items: center;
 }
 
-.our-story-card-five{
+.our-story-card-animation-card{
     display: flex;
     padding: 3rem;
     font-family: sans-serif;
@@ -165,17 +165,6 @@ h4{
     width: 100%;
     height: 697px;
 }
-
-/* .our-story-card-six{
-    display: flex;
-    padding: 3rem;
-    font-family: sans-serif;
-    margin: 0%;
-    color: #fff;
-    background-color: var(--black);
-    width: 100%;
-    height: 697px;
-} */
 
 .our-story-card-six{
     display: block;
@@ -198,9 +187,6 @@ h4{
 }
 
 .faq-list-item{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     background-color: var(--grey);
     border: none;
     color: var(--white);
